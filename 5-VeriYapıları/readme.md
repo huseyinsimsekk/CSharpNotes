@@ -6,7 +6,7 @@ First In First Out `FIFO` mantığıyla çalışın bir veri yapısıdır. Queue
 
 #### Tanımlama
 ```csharp
-Queue<string> queue = new Queue<string>(); // Generic bir yapıdır. Collection'da tutmak istediğimiz tipi verebiliriz.
+Queue<string> queue = new Queue<string>(); // Collection'da tutmak istediğimiz tipi verebiliriz.
 ```
 
 #### Önemli Metodlar
