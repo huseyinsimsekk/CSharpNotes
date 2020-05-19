@@ -1,4 +1,6 @@
 # C# Veri Yapıları
+### C# Collection
+Collection'lar datayı yönetmek, depolamak, maniple edebilmek için tasarlanmıştır. Dataya ekleme, silme, arama, sıralama gibi işlemler yapmamıza imkan sağlayan yapılardır.   
 
 > ### Generic ve Non-Generic Collection Farkı
 > En genel fark Generic tipler `strongly typed` yani barındırdığı veri tipleri aynı olmalıdır. Non-Generic tiplerde ise veri tiplerini aynı olma zorunluluğu yoktur. Yani bir string eleman ekleyebilir bir başka ekleyeceğimiz eleman integer olabilir. 
