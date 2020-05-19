@@ -1,3 +1,5 @@
+![Dotnet](/Images/dotnet.jpg)
+
 # CSharpNotes 📚
 
 Bu depo öğrendiğim notları kaydetmek için oluşturulmuştur.
