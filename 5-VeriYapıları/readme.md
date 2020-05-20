@@ -31,3 +31,14 @@ ArrayList arrayList = new ArrayList();
 ```
 #### Önemli Metodlar
 > ### Not : Diğer Collectionlar ile benzer metodlar tekrardan yazılmamıştır.
+
+- `InsertRange()` ArrayList'e belirli bir indisten başlayarak bir collection ekler. İlk parametre `integer` index başlangıcı, ikinci parametre eklenecek collectiondır.
+- `AddRange()` Bir collection'ı ArrayList'e eklemek için kullanılır.
+- `RemoveRange()` Belirli bir indisten başlayarak belirtilen sayıda elemanı collectiondan siler. İlk parametre index başlangıcı, ikici parametre kaç tane eleman silineceğidir.
+
+## 3- SortedList
+Küçükten büyüğe doğru artan `key` değer ile `key-value` çiftleri barındıran bir collectiondır. Key değeri `null` **olamaz**.
+#### Tanımlama
+```csharp
+SortedList<int, string> keyValuePairs = new SortedList<int, string>();
+```
