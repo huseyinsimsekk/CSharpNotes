@@ -22,3 +22,11 @@ Queue<string> queue = new Queue<string>(); // Collection'da tutmak istediğimiz 
 - `Contains(T)` Kuyrukta belirli bir elemanı arar. `True` veya `False`döner.
 - `Clear()` Kuyruğu temizler.
 - `Count()`Kuyruktaki eleman sayısını verir.
+
+## 2- ArrayList
+`Non-Generic` bir collection tipidir. Array'e benzer ancak bir size belirlememize gerek yoktur. 
+#### Tanımlama
+```csharp
+ArrayList arrayList = new ArrayList();
+```
+#### Önemli Metodlar
