@@ -42,3 +42,5 @@ Küçükten büyüğe doğru artan `key` değer ile `key-value` çiftleri barın
 ```csharp
 SortedList<int, string> keyValuePairs = new SortedList<int, string>();
 ```
+- SortedList herzaman `key` değerine göre sıralanır. 
+- Bir key değerine göre arama yapmak istendiğinde `binary search` algoritması kullanılabilir.
