@@ -30,3 +30,4 @@ Queue<string> queue = new Queue<string>(); // Collection'da tutmak istediğimiz 
 ArrayList arrayList = new ArrayList();
 ```
 #### Önemli Metodlar
+> ### Not : Diğer Collectionlar ile benzer metodlar tekrardan yazılmamıştır.
