@@ -44,3 +44,31 @@ SortedList<int, string> keyValuePairs = new SortedList<int, string>();
 ```
 - SortedList herzaman `key` değerine göre sıralanır. 
 - Bir key değerine göre arama yapmak istendiğinde `binary search` algoritması kullanılabilir.
+
+## 4- Hashtable
+Key-value çiftleri barındıran bir veri yapısıdır. 
+#### Tanımlama
+```csharp
+Hashtable hashtable = new Hashtable();
+```
+#### Önemli Property'ler
+- `Keys` Hashtable'daki keyleri değerlerini döndürür.
+- `Values` Hashtable'daki value değerlerini döndürür.
+
+## 5- Stack
+Last In First Out `FIFO` mantığıyla çalışır. Elemanların veri tipleri farklı olabilir.
+#### Tanımlama
+```csharp
+Stack stack = new Stack();
+```
+#### Önemli Metodlar
+- `Push` Stack'e yeni bir eleman eklememizi sağlar.
+- `Pop` Stack'ten son eklenen elemanı çıkarır ve elemanı döndürür.
+- `Peek` Stack'e son eklenen elemanı döndürür. Elemanı stack'ten çıkarmaz.
+## 6- Dictionary
+Key-Value pairleri barındıran bir veri yapısıdır. Key değerlerini sözlükteki kelimeler gibi, value'ları ise sözlükteki tanımlamalar gibi düşünebiliriz. 
+#### Tanımlama
+```csharp
+Dictionary<int, string> keyValuePairs = new Dictionary<int, string>();
+```
+> Key değerleri `unique` olmalıdır. Dublicate olması halinde runtime exception verir. Ayrıca `key` değeri `null` olamaz. Value değeri null ve dublicate olabilir. 
