@@ -56,7 +56,7 @@ Hashtable hashtable = new Hashtable();
 - `Values` Hashtable'daki value değerlerini döndürür.
 
 ## 5- Stack
-Last In First Out `FIFO` mantığıyla çalışır. Elemanların veri tipleri farklı olabilir.
+Last In First Out `LIFO` mantığıyla çalışır. Elemanların veri tipleri farklı olabilir.
 #### Tanımlama
 ```csharp
 Stack stack = new Stack();
