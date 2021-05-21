@@ -72,3 +72,8 @@ Key-Value pairleri barındıran bir veri yapısıdır. Key değerlerini sözlük
 Dictionary<int, string> keyValuePairs = new Dictionary<int, string>();
 ```
 > Key değerleri `unique` olmalıdır. Dublicate olması halinde runtime exception verir. Ayrıca `key` değeri `null` olamaz. Value değeri null ve dublicate olabilir. 
+
+## 7- HashSet
+Sıralı olmayan unique elemanları tutabileceğimiz bir collection yapısıdır. Genellikle duplicate olmasını istemediğimiz durumlarda kullanılır. Karşılaştırma durumları için list e göre daha performanslıdır. 
+
+Eklemeye çalıştığımız elemen yoksa eklenir varsa hata vermeden o değeri tekrar eklemeden devam eder.
